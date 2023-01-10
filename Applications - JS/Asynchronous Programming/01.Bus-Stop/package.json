@@ -1,0 +1,17 @@
+{
+  "name": "01.bus-stop",
+  "version": "1.0.0", 
+  "description": "", 
+  "main": "index.html", 
+  "scripts": { 
+    "test": "mocha tests", 
+    "start": "http-server -a localhost -p 3000 -P http://localhost:3000? -c-1" },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "playwright-chromium": "^1.27.1"
+  }
+}
