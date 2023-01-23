@@ -2,4 +2,4 @@
 Projects and homework from softuni.bg
 
 
-This repository will be a place for my homeworks, projects and my progress as web developer.
+This repository will be a place for my homework, projects and my progress as web developer.
