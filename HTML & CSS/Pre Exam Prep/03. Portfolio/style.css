@@ -1,0 +1,252 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+main section {
+  margin: 4vh auto;
+  width: 96%;
+  max-width: 96%;
+  height: 75vh;
+  background-color: #efefef;
+  position: relative;
+}
+
+.hero img {
+  position: absolute;
+  bottom: 0;
+  right: 10rem;
+}
+
+.hero .menu {
+  position: absolute;
+  right: 5.25rem;
+  top: 2.25rem;
+  font-size: 1.25rem;
+}
+
+.hero .menu i {
+  position: absolute;
+  bottom: 0.5px;
+  margin-left: 1.25rem;
+  font-size: 1.75rem;
+}
+
+.hero article {
+  position: absolute;
+  width: 33%;
+  top: 25%;
+  left: 8%;
+  transform: translate(-50% -50%);
+}
+
+.hero article h2 {
+  margin-bottom: 1.5rem;
+  font-size: 3.3rem;
+  font-weight: 200;
+  color: #111111;
+}
+
+.hero article p {
+  font-style: italic;
+  font-size: 1.42rem;
+  color: #111111;
+  margin-bottom: 2rem;
+}
+
+.hero article div {
+  background-color: #111111;
+  width: 1px;
+  height: 7.25vh;
+}
+
+.camera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 12%;
+  padding-left: 8%;
+  gap: 8%;
+}
+
+.camera img {
+  width: 80%;
+  height: 80%;
+}
+
+.info_camera .camera_line {
+    display: inline-block;
+    margin-bottom: 1rem;
+    height: 2px;
+    width: 6rem;
+    background-color: #111111;
+    margin-right: 2rem;
+}
+
+.info_camera h2{
+    display: inline-block;
+    font-size: 3.5rem;
+    font-weight: 200;
+    margin-bottom: 2.75rem;
+    color: #111111;
+}
+
+.info_camera p{
+    color: #111111;
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.camera_icons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.camera_icons i{
+    background-color: #909090;
+    padding: 0.75rem 0.9rem;
+    margin-top: 1rem;
+    color: white;
+    
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* bridge */
+
+.bridge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+    gap: 10%;
+}
+
+.bridge img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bridge article {
+    padding-right: 6rem;
+}
+
+.bridge h2{
+    font-size: 3.75rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    color: #111111;
+}
+
+.bridge p{
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+    color: #111111;
+}
+
+.bridge div {
+    width: 1px;
+    height: 8vh;
+    background-color: #111111;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images img{
+    width: 30%;
+    height: 50%;
+    object-fit: cover;
+}
+
+#special {
+    width: 20%;
+    height: 33%;
+    scale: 2.2;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.footer h2{
+    font-size: 3.75rem;
+    font-weight: 200;
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.footer .footer_info {
+    font-size: 1.36rem;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 3.5rem;
+}
+
+.footer form {
+    display: grid;
+    grid-template-areas: 
+    "email subject"
+    "textarea textarea"
+    "button button";
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    gap: 2rem;
+}
+
+.footer form input[placeholder="    Your Email"]{
+    grid-area: email;
+    height: 5vh;
+    background-color: #efefef;
+    border: #111111 solid 2px;
+    font-size: 1.25rem;
+    font-weight: 600;
+
+}
+
+.footer form input[placeholder="    Subject"] {
+    grid-area: subject;
+    height: 5vh;
+    background-color: #efefef;
+    border: #111111 solid 2px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.footer form textarea {
+    grid-area: textarea;
+    height: 15vh;
+    background-color: #efefef;
+    border: #111111 solid 2px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.footer form button {
+    grid-area: button;
+    height: 5vh;
+    background-color: #111111;
+    border: #111111 solid 1px;
+    color: #efefef;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.footer_p {
+    margin-top: 9%;
+}
